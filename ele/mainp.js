@@ -848,6 +848,7 @@ function startsearchingfordata(e) {
   if (inpt != " ") {
     let searchR = document.getElementById("onlineSearch");
     searchR.style.display = "block";
+    searchR.style.position = "relative";
     searchR.style.backgroundColor = "white";
     let out = searchinpdata.value;
     console.log(out);

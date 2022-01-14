@@ -9,9 +9,6 @@ button {
   color: white;
   transition: background-color 0.4s;
 }
-button {
-  box-shadow: 1.5px 1.5px red, -0.1em 0 0.05em olive;
-}
 button:hover {
   background-color: #fff176;
   color: black;
