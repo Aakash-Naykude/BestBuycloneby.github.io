@@ -832,10 +832,10 @@ searchinpdata.addEventListener("input", startsearchingfordata);
 
 function startsearchingfordata(e) {
   onlineSearch.textContent = e.target.value;
-  onlineSearch.style.position = "relative"
+  onlineSearch.style.position = "relative";
   var inpt = searchinpdata.value;
 
-  debounce(startshowofsug, 3000);
+  debounce(startshowofsug, 2500);
   function debounce(startshowofsug, time) {
     if (sets) {
       clearTimeout(sets);
